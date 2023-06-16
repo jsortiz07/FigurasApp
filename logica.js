@@ -66,3 +66,10 @@ function calcPerCirculo(){
     document.getElementById('result').innerText =resultadoPerC;
 
 }
+
+function calcAreaCirculo(){
+    let radio =document.getElementById('radio').value;
+    let areaC = (radio * radio) * Math.PI;
+    let result = `El area del circulo es: ${areaC} cm`;
+    document.getElementById('result').innerText =result;
+}
