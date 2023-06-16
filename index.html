@@ -55,22 +55,22 @@
                 <input class="box-main__input" 
                 type="number" 
                 name="side" 
-                id="side"
+                id="sideT1"
                 placeholder="Ingrese lado 1">
 
                 <input class="box-main__input" 
                 type="number" 
                 name="side" 
-                id="side"
+                id="sideT2"
                 placeholder="Ingrese lado 2">
 
                 <input class="box-main__input" 
                 type="number" 
                 name="side" 
-                id="side"
+                id="sideT3"
                 placeholder="Ingrese lado 3">
 
-                <button class="box-main__btn">Perimetro</button>
+                <button class="box-main__btn" onclick="calcPerimetroTriangulo()">Perimetro</button>
                 
 
                 <p class="box-main__text">¿Cuanto mide la base y la altura del triangulo?</p>
@@ -87,7 +87,7 @@
                 id="t-altura"
                 placeholder="Ingrese altura">
 
-                <button class="box-main__btn">Area</button>
+                <button class="box-main__btn" onclick="calcAreaTriangulo()">Area</button>
             </div>
         </div>
 
@@ -98,9 +98,9 @@
             </div>
             <div class="box-main">
                 <p class="box-main__text">¿Cuanto mide el radio de tu circulo?</p>
-                <input class="box-main__input" type="number" name="side" id="side">
+                <input class="box-main__input" type="number" name="side" id="radio">
 
-                <button class="box-main__btn">Radio</button>
+                <button class="box-main__btn" onclick="calcDiamCirculo()">Diametro</button>
                 <button class="box-main__btn">Perimetro</button>
                 <button class="box-main__btn">Area</button>
             </div>
