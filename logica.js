@@ -49,3 +49,20 @@ function calcAreaTriangulo(){
 
 }
 
+
+function calcDiamCirculo(){
+    let radio = document.getElementById('radio').value;
+    radio = parseFloat(radio);
+    let diametro = radio *2;
+    resultadoDC = `El diametro del circulo es : ${diametro}`;
+    document.getElementById('result').innerText =resultadoDC;
+
+    return diametro;
+}
+
+function calcPerCirculo(){
+    let perimetroC = calcDiamCirculo() * Math.PI;
+    resultadoPerC = `El perimetro del circulo es: ${perimetroC}`;
+    document.getElementById('result').innerText =resultadoPerC;
+
+}
